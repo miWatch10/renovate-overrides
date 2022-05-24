@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "config:base",
+    ":prHourlyLimit1",
+    ":enableVulnerabilityAlertsWithLabel(Vulnerability)",
+    "group:all"
+  ],
+  "branchPrefix": "chore/renovate/",
+  "prConcurrentLimit": 1,
+  "automerge": true,
+  "masterIssue": true,
+  "masterIssueApproval": false,
+  "rangeStrategy": "bump",
+  "timezone": "America/Chicago",
+  "schedule": [
+    "after 5am and before 6am on Monday"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": [
+      "after 8am and before 10am on Monday"
+    ]
+  },
+  "ignoreDeps": [
+    "react-native"
+  ]
+}
