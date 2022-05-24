@@ -1,0 +1,30 @@
+{
+  "name": "renovate-overrides",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/miWatch10/renovate-overrides#readme",
+  "bugs": {
+    "url": "https://github.com/miWatch10/renovate-overrides/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miWatch10/renovate-overrides.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "resume-cli": "^3.0.7"
+  },
+  "engines": {
+    "node": ">=v16.15.0",
+    "npm": ">=8.10.0"
+  },
+  "overrides": {
+    "underscore@1.6.0": "~1.13.3",
+    "dset": ">=3.1.2"
+  }
+}
